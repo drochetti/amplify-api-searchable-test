@@ -14,6 +14,13 @@
 		B9156A0024EB6BA100D945F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B91569FF24EB6BA100D945F8 /* Assets.xcassets */; };
 		B9156A0324EB6BA100D945F8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B9156A0224EB6BA100D945F8 /* Preview Assets.xcassets */; };
 		B9156A0624EB6BA100D945F8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9156A0424EB6BA100D945F8 /* LaunchScreen.storyboard */; };
+		B9156A1124EB74E800D945F8 /* amplifyconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = B9156A0F24EB74E800D945F8 /* amplifyconfiguration.json */; };
+		B9156A1224EB74E800D945F8 /* awsconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = B9156A1024EB74E800D945F8 /* awsconfiguration.json */; };
+		B9156A1424EB74FD00D945F8 /* schema.graphql in Resources */ = {isa = PBXBuildFile; fileRef = B9156A1324EB74FD00D945F8 /* schema.graphql */; };
+		B9156A1924EB754400D945F8 /* AmplifyModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9156A1624EB754400D945F8 /* AmplifyModels.swift */; };
+		B9156A1A24EB754400D945F8 /* Todo.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9156A1724EB754400D945F8 /* Todo.swift */; };
+		B9156A1B24EB754400D945F8 /* Todo+Schema.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9156A1824EB754400D945F8 /* Todo+Schema.swift */; };
+		B9156A1E24EB773E00D945F8 /* AppDelegate+Amplify.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9156A1D24EB773E00D945F8 /* AppDelegate+Amplify.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +35,13 @@
 		B9156A0224EB6BA100D945F8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B9156A0524EB6BA100D945F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B9156A0724EB6BA100D945F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B9156A0F24EB74E800D945F8 /* amplifyconfiguration.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = amplifyconfiguration.json; sourceTree = "<group>"; };
+		B9156A1024EB74E800D945F8 /* awsconfiguration.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = awsconfiguration.json; sourceTree = "<group>"; };
+		B9156A1324EB74FD00D945F8 /* schema.graphql */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = schema.graphql; path = amplify/backend/api/amplifysearchabletes/schema.graphql; sourceTree = "<group>"; };
+		B9156A1624EB754400D945F8 /* AmplifyModels.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AmplifyModels.swift; path = amplify/generated/models/AmplifyModels.swift; sourceTree = SOURCE_ROOT; };
+		B9156A1724EB754400D945F8 /* Todo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Todo.swift; path = amplify/generated/models/Todo.swift; sourceTree = SOURCE_ROOT; };
+		B9156A1824EB754400D945F8 /* Todo+Schema.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Todo+Schema.swift"; path = "amplify/generated/models/Todo+Schema.swift"; sourceTree = SOURCE_ROOT; };
+		B9156A1D24EB773E00D945F8 /* AppDelegate+Amplify.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "AppDelegate+Amplify.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,7 +76,8 @@
 		B91569ED24EB6B9F00D945F8 = {
 			isa = PBXGroup;
 			children = (
-				B91569F824EB6B9F00D945F8 /* AmplifySearchableTest */,
+				B9156A0E24EB74CE00D945F8 /* Amplify */,
+				B91569F824EB6B9F00D945F8 /* Sources */,
 				B91569F724EB6B9F00D945F8 /* Products */,
 				5469A6490AB9821FE174915F /* Pods */,
 				7178863468757AA6A3D735FC /* Frameworks */,
@@ -77,18 +92,17 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		B91569F824EB6B9F00D945F8 /* AmplifySearchableTest */ = {
+		B91569F824EB6B9F00D945F8 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
 				B91569F924EB6B9F00D945F8 /* AppDelegate.swift */,
-				B91569FF24EB6BA100D945F8 /* Assets.xcassets */,
+				B9156A1D24EB773E00D945F8 /* AppDelegate+Amplify.swift */,
 				B91569FD24EB6B9F00D945F8 /* ContentView.swift */,
-				B9156A0724EB6BA100D945F8 /* Info.plist */,
-				B9156A0424EB6BA100D945F8 /* LaunchScreen.storyboard */,
-				B9156A0124EB6BA100D945F8 /* Preview Content */,
 				B91569FB24EB6B9F00D945F8 /* SceneDelegate.swift */,
+				B9156A1C24EB755B00D945F8 /* Config */,
+				B9156A1524EB753500D945F8 /* Models */,
 			);
-			path = AmplifySearchableTest;
+			path = Sources;
 			sourceTree = "<group>";
 		};
 		B9156A0124EB6BA100D945F8 /* Preview Content */ = {
@@ -97,6 +111,37 @@
 				B9156A0224EB6BA100D945F8 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B9156A0E24EB74CE00D945F8 /* Amplify */ = {
+			isa = PBXGroup;
+			children = (
+				B9156A0F24EB74E800D945F8 /* amplifyconfiguration.json */,
+				B9156A1024EB74E800D945F8 /* awsconfiguration.json */,
+				B9156A1324EB74FD00D945F8 /* schema.graphql */,
+			);
+			name = Amplify;
+			sourceTree = "<group>";
+		};
+		B9156A1524EB753500D945F8 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B9156A1624EB754400D945F8 /* AmplifyModels.swift */,
+				B9156A1724EB754400D945F8 /* Todo.swift */,
+				B9156A1824EB754400D945F8 /* Todo+Schema.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		B9156A1C24EB755B00D945F8 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				B91569FF24EB6BA100D945F8 /* Assets.xcassets */,
+				B9156A0724EB6BA100D945F8 /* Info.plist */,
+				B9156A0424EB6BA100D945F8 /* LaunchScreen.storyboard */,
+				B9156A0124EB6BA100D945F8 /* Preview Content */,
+			);
+			path = Config;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -160,9 +205,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B9156A1224EB74E800D945F8 /* awsconfiguration.json in Resources */,
 				B9156A0624EB6BA100D945F8 /* LaunchScreen.storyboard in Resources */,
 				B9156A0324EB6BA100D945F8 /* Preview Assets.xcassets in Resources */,
 				B9156A0024EB6BA100D945F8 /* Assets.xcassets in Resources */,
+				B9156A1424EB74FD00D945F8 /* schema.graphql in Resources */,
+				B9156A1124EB74E800D945F8 /* amplifyconfiguration.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -233,9 +281,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B9156A1924EB754400D945F8 /* AmplifyModels.swift in Sources */,
 				B91569FA24EB6B9F00D945F8 /* AppDelegate.swift in Sources */,
+				B9156A1E24EB773E00D945F8 /* AppDelegate+Amplify.swift in Sources */,
+				B9156A1B24EB754400D945F8 /* Todo+Schema.swift in Sources */,
 				B91569FC24EB6B9F00D945F8 /* SceneDelegate.swift in Sources */,
 				B91569FE24EB6B9F00D945F8 /* ContentView.swift in Sources */,
+				B9156A1A24EB754400D945F8 /* Todo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -373,10 +425,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"AmplifySearchableTest/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Sources/Config/Preview Content\"";
 				DEVELOPMENT_TEAM = W3DRXD72QU;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = AmplifySearchableTest/Info.plist;
+				INFOPLIST_FILE = Sources/Config/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -394,10 +446,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"AmplifySearchableTest/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Sources/Config/Preview Content\"";
 				DEVELOPMENT_TEAM = W3DRXD72QU;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = AmplifySearchableTest/Info.plist;
+				INFOPLIST_FILE = Sources/Config/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

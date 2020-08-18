@@ -1,0 +1,7 @@
+type Todo @model @searchable {
+  id: ID!
+  name: String!
+  done: Boolean!
+  description: String
+  createdAt: AWSDate!
+}
