@@ -27,7 +27,7 @@ extension Todo {
             .field(todo.name, is: .required, ofType: .string),
             .field(todo.done, is: .required, ofType: .bool),
             .field(todo.description, is: .optional, ofType: .string),
-            .field(todo.createdAt, is: .required, ofType: .date)
+            .field(todo.createdAt, is: .required, ofType: .dateTime)
         )
     }
 }

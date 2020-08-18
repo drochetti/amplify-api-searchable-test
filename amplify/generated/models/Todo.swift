@@ -7,13 +7,13 @@ public struct Todo: Model {
     public var name: String
     public var done: Bool
     public var description: String?
-    public var createdAt: Temporal.Date
+    public var createdAt: Temporal.DateTime
 
     public init(id: String = UUID().uuidString,
                 name: String,
                 done: Bool,
                 description: String? = nil,
-                createdAt: Temporal.Date)
+                createdAt: Temporal.DateTime)
     {
         self.id = id
         self.name = name

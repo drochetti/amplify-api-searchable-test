@@ -21,6 +21,8 @@
 		B9156A1A24EB754400D945F8 /* Todo.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9156A1724EB754400D945F8 /* Todo.swift */; };
 		B9156A1B24EB754400D945F8 /* Todo+Schema.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9156A1824EB754400D945F8 /* Todo+Schema.swift */; };
 		B9156A1E24EB773E00D945F8 /* AppDelegate+Amplify.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9156A1D24EB773E00D945F8 /* AppDelegate+Amplify.swift */; };
+		B9156A2024EB78A800D945F8 /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9156A1F24EB78A800D945F8 /* AppState.swift */; };
+		B9156A2224EB7AE400D945F8 /* GraphQLRequest+Search.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9156A2124EB7AE400D945F8 /* GraphQLRequest+Search.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +44,8 @@
 		B9156A1724EB754400D945F8 /* Todo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Todo.swift; path = amplify/generated/models/Todo.swift; sourceTree = SOURCE_ROOT; };
 		B9156A1824EB754400D945F8 /* Todo+Schema.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Todo+Schema.swift"; path = "amplify/generated/models/Todo+Schema.swift"; sourceTree = SOURCE_ROOT; };
 		B9156A1D24EB773E00D945F8 /* AppDelegate+Amplify.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "AppDelegate+Amplify.swift"; sourceTree = "<group>"; };
+		B9156A1F24EB78A800D945F8 /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
+		B9156A2124EB7AE400D945F8 /* GraphQLRequest+Search.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GraphQLRequest+Search.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,7 +101,9 @@
 			children = (
 				B91569F924EB6B9F00D945F8 /* AppDelegate.swift */,
 				B9156A1D24EB773E00D945F8 /* AppDelegate+Amplify.swift */,
+				B9156A1F24EB78A800D945F8 /* AppState.swift */,
 				B91569FD24EB6B9F00D945F8 /* ContentView.swift */,
+				B9156A2124EB7AE400D945F8 /* GraphQLRequest+Search.swift */,
 				B91569FB24EB6B9F00D945F8 /* SceneDelegate.swift */,
 				B9156A1C24EB755B00D945F8 /* Config */,
 				B9156A1524EB753500D945F8 /* Models */,
@@ -282,8 +288,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				B9156A1924EB754400D945F8 /* AmplifyModels.swift in Sources */,
+				B9156A2224EB7AE400D945F8 /* GraphQLRequest+Search.swift in Sources */,
 				B91569FA24EB6B9F00D945F8 /* AppDelegate.swift in Sources */,
 				B9156A1E24EB773E00D945F8 /* AppDelegate+Amplify.swift in Sources */,
+				B9156A2024EB78A800D945F8 /* AppState.swift in Sources */,
 				B9156A1B24EB754400D945F8 /* Todo+Schema.swift in Sources */,
 				B91569FC24EB6B9F00D945F8 /* SceneDelegate.swift in Sources */,
 				B91569FE24EB6B9F00D945F8 /* ContentView.swift in Sources */,

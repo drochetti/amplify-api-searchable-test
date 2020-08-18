@@ -3,5 +3,5 @@ type Todo @model @searchable {
   name: String!
   done: Boolean!
   description: String
-  createdAt: AWSDate!
+  createdAt: AWSDateTime!
 }

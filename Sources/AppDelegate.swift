@@ -6,7 +6,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
                      didFinishLaunchingWithOptions _: [UIApplication.LaunchOptionsKey: Any]?) -> Bool
     {
         // Override point for customization after application launch.
-        true
+        configureAmplify()
     }
 
     // MARK: UISceneSession Lifecycle
