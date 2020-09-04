@@ -1,0 +1,15 @@
+projects:
+  amplifysearchabletes:
+    schemaPath: amplify/backend/api/amplifysearchabletes/build/schema.graphql
+    includes:
+      - graphql/**/*.graphql
+    excludes:
+      - ./amplify/**
+    extensions:
+      amplify:
+        codeGenTarget: swift
+        generatedFileName: Sources/AppSync/API.swift
+        docsFilePath: graphql
+        region: us-east-1
+        apiId: null
+        maxDepth: 2

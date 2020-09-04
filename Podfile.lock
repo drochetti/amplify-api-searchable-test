@@ -15,6 +15,11 @@ PODS:
     - AWSPluginsCore (= 1.0.6)
   - AppSyncRealTimeClient (1.4.0):
     - Starscream (~> 3.1.0)
+  - AWSAppSync (3.1.5):
+    - AppSyncRealTimeClient (~> 1.4)
+    - AWSCore (~> 2.15.0)
+    - ReachabilitySwift (~> 5.0.0)
+    - SQLite.swift (~> 0.12.2)
   - AWSAuthCore (2.15.1):
     - AWSCore (= 2.15.1)
   - AWSCognitoIdentityProvider (2.15.1):
@@ -30,6 +35,9 @@ PODS:
     - AWSCore (~> 2.15.0)
     - AWSMobileClient (~> 2.15.0)
   - ReachabilitySwift (5.0.0)
+  - SQLite.swift (0.12.2):
+    - SQLite.swift/standard (= 0.12.2)
+  - SQLite.swift/standard (0.12.2)
   - Starscream (3.1.1)
   - SwiftFormat/CLI (0.45.6)
 
@@ -37,6 +45,7 @@ DEPENDENCIES:
   - Amplify (~> 1.0.6)
   - AmplifyPlugins/AWSAPIPlugin (~> 1.0.6)
   - AmplifyPlugins/AWSCognitoAuthPlugin (~> 1.0.6)
+  - AWSAppSync
   - SwiftFormat/CLI
 
 SPEC REPOS:
@@ -44,6 +53,7 @@ SPEC REPOS:
     - Amplify
     - AmplifyPlugins
     - AppSyncRealTimeClient
+    - AWSAppSync
     - AWSAuthCore
     - AWSCognitoIdentityProvider
     - AWSCognitoIdentityProviderASF
@@ -51,6 +61,7 @@ SPEC REPOS:
     - AWSMobileClient
     - AWSPluginsCore
     - ReachabilitySwift
+    - SQLite.swift
     - Starscream
     - SwiftFormat
 
@@ -58,6 +69,7 @@ SPEC CHECKSUMS:
   Amplify: e07bbe2b0bbeeec2b36470a842e59c98d0b7effa
   AmplifyPlugins: 6e3000faae927e45279b0198a531fbb91554efc6
   AppSyncRealTimeClient: 1e14f5584218e63b00fffbc093ad1934701a4b68
+  AWSAppSync: dcaa833096bd226e6df445f91da8429adc88f89c
   AWSAuthCore: d98801d505ea332fd1ec28fbaf3377e0ce02100f
   AWSCognitoIdentityProvider: 5172f21b3530adbb1549501cd26e126bb211b85c
   AWSCognitoIdentityProviderASF: f94f1a502e72ef3d0a1de93e10bf7a79c8698118
@@ -65,9 +77,10 @@ SPEC CHECKSUMS:
   AWSMobileClient: 23aa8e4a787553742861ea1e3272420a9aaf4938
   AWSPluginsCore: 530a2a531c8cb7f9de8423689746f67108d2ceaa
   ReachabilitySwift: 985039c6f7b23a1da463388634119492ff86c825
+  SQLite.swift: d2b4642190917051ce6bd1d49aab565fe794eea3
   Starscream: 4bb2f9942274833f7b4d296a55504dcfc7edb7b0
   SwiftFormat: f1612638c8097ceed03d0149f5f5ab67174ee5dd
 
-PODFILE CHECKSUM: b4f949105aec34b0d2b5da9236517b09245abb1d
+PODFILE CHECKSUM: 1adf7288c5e748f93aaee9159aad13c240e792da
 
 COCOAPODS: 1.9.3

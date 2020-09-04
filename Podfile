@@ -10,6 +10,9 @@ target 'AmplifySearchableTest' do
   pod 'AmplifyPlugins/AWSAPIPlugin', '~> 1.0.6'
   pod 'AmplifyPlugins/AWSCognitoAuthPlugin', '~> 1.0.6'
 
+  # AppSync
+  pod 'AWSAppSync'
+
   # Tools
   pod 'SwiftFormat/CLI'
 
